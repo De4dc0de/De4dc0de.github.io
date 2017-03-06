@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+@import url('https://fonts.googleapis.com/css?family=Monofett');
+
+body { background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/zwartevilt.png'); }
+header { top: 0; position: fixed; }
+footer { bottom: 0px; display:flex; flex-direction:row; justify-content: space-around; position: fixed; }
+footer div { overflow: hidden; width: 50%; }
+
+h1
+{
+	font-family: 'Press Start 2P', cursive;
+	color: rgb(230, 230, 230);
+}
+
+section
+{
+	width: 100%;
+	height: 100%;
+	margin-top: 125px;
+}
+
+section img
+{
+	border: 2px solid gray;
+}
+
+a { color: rgb(230, 230, 230); text-decoration: none; }
+
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-left: 15px;
+    background-color: rgb(10, 10, 10);
+}
+
+li 
+{
+    float: left;
+}
+
+li a 
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover 
+{
+    background-color: #111;
+}
+
+li a:hover:not(.active)
+{
+	background-color: #4A9F50;
+}
+
+li a.active {
+    background-color: #4A9F50;
+}
+
+.login_register
+{
+	float: right;
+}
+
+#join_us
+{
+	margin-top: 30px; 
+	margin-left: 460px;
+}
+
+.fixed
+{
+	font-family: 'Press Start 2P', cursive;
+	background-color: rgb(10, 10, 10);
+	width: 100%;
+	left: 0;
+	padding: 10px;
+}
+
+.fixed h1
+{
+	color: rgb(230, 230, 230);
+	margin-left: 30px;
+	font-size: 20px;
+}
+
+.fixed p
+{
+	color: red;
+	margin-left: 30px;
+}
